@@ -13,3 +13,4 @@ output/
 logs/
 *.out
 *.err
+dump.txt

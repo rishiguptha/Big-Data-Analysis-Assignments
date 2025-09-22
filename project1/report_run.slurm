@@ -9,7 +9,7 @@
 #SBATCH --partition=debug-40core
 
 # Load the required Python module
-module load python/3.9.12
+module load python/3.11.2
 
 echo "Starting final report generation..."
 
