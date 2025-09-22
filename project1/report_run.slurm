@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=1             # Number of CPU cores per task
 #SBATCH --mem=512M                    # This step needs less memory
 #SBATCH --time=00:02:00               # This step is very fast
-#SBATCH --partition=short-28core 
+#SBATCH --partition=debug-40core
 
 # Load the required Python module
 module load python/3.9.12

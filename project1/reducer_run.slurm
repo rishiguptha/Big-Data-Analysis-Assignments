@@ -7,7 +7,7 @@
 #SBATCH --mem=1G                     # Job memory request
 #SBATCH --time=00:10:00              # Time limit hrs:min:sec
 #SBATCH --array=0-3                  # Array of tasks (4 reducers, IDs 0-3)
-#SBATCH --partition=short-28core 
+#SBATCH --partition=debug-40core
 
 # Load the required Python module
 module load python/3.9.12
