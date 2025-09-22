@@ -7,7 +7,7 @@ import argparse
 
 # --- Configuration ---
 # IMPORTANT: Before running, update NET_ID with your actual NetID.
-NET_ID = "YourNetID" 
+NET_ID = "rmankala" 
 
 # Base directory for your project work.
 # This ensures all paths are built correctly.
