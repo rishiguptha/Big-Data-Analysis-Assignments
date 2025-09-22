@@ -14,6 +14,6 @@ module load python/3.11.2
 echo "Starting final report generation..."
 
 # Run the python script in 'report' mode
-srun python mapreduce_counter.py report
+srun python mapreduce_counter.py report --export=ALL
 
 echo "Report generation complete. Check the output log."

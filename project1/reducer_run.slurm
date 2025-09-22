@@ -15,6 +15,6 @@ module load python/3.11.2
 echo "Starting reducer task $SLURM_ARRAY_TASK_ID"
 
 # Run the python script in 'reduce' mode, passing the task ID
-srun python mapreduce_counter.py reduce --id $SLURM_ARRAY_TASK_ID
+srun python mapreduce_counter.py reduce --id $SLURM_ARRAY_TASK_ID --export=ALL
 
 echo "Finished reducer task $SLURM_ARRAY_TASK_ID"

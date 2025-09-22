@@ -1,4 +1,4 @@
-# mapreduce_count.py
+# mapreduce_counter.py
 import os
 import sys
 import glob
