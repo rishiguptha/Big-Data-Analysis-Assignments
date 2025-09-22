@@ -14,6 +14,6 @@ module load python/3.9.12
 echo "Starting mapper task $SLURM_ARRAY_TASK_ID"
 
 # Run the python script in 'map' mode, passing the task ID
-srun python mapreduce_count.py map --id $SLURM_ARRAY_TASK_ID
+srun python mapreduce_counter.py map --id $SLURM_ARRAY_TASK_ID
 
 echo "Finished mapper task $SLURM_ARRAY_TASK_ID"
